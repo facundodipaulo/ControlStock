@@ -9,15 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(response => response.json())
     .then(data => {
 
-        function agregarAlCarrito(nombre, stock) {
-            const cantidadInput = document.querySelector(".inputCant");
-            const cantidad = cantidadInput.value;
-            const nombreLadrillo = nombre;
-            const stockLadrillo = stock - cantidad;
-            console.log(nombreLadrillo);
-            console.log(stockLadrillo);
-        }
-
         
 
 
@@ -45,7 +36,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
         });
 
-        
+        function agregarAlCarrito(nombre, stock) {
+            const cantidadInput = document.querySelector(".inputCant");
+            const cantidad = cantidadInput.value;
+            const nombreLadrillo = nombre;
+            const stockLadrillo = stock - cantidad;
+            console.log(nombreLadrillo);
+            console.log(stockLadrillo);
+        }
 
 
 
