@@ -1,0 +1,13 @@
+.articulo {
+    padding: 03%;
+    text-align: center;
+    border: 1px solid;
+    background-color: darkolivegreen;
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    background-color: darkcyan;
+    padding: 1%;
+}

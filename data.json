@@ -1,0 +1,163 @@
+[
+    {
+        "id": 101,
+        "nombre": "Ladrillo de Élite",
+        "descripcion": "Un ladrillo extremadamente resistente y elegante.",
+        "stock": 1000,
+        "costo": 599,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 102,
+        "nombre": "Ladrillo Mágico",
+        "descripcion": "Un ladrillo que emite un brillo mágico.",
+        "stock": 750,
+        "costo": 349,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 103,
+        "nombre": "Ladrillo Infernal",
+        "descripcion": "Un ladrillo abrasador que irradia calor.",
+        "stock": 500,
+        "costo": 299,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 104,
+        "nombre": "Ladrillo de Cristal",
+        "descripcion": "Un ladrillo transparente y frágil.",
+        "stock": 1200,
+        "costo": 199,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 105,
+        "nombre": "Ladrillo de Hielo",
+        "descripcion": "Un ladrillo frío al tacto.",
+        "stock": 800,
+        "costo": 249,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 106,
+        "nombre": "Ladrillo de Oro",
+        "descripcion": "Un ladrillo dorado y lujoso.",
+        "stock": 600,
+        "costo": 499,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 107,
+        "nombre": "Ladrillo de Obsidiana",
+        "descripcion": "Un ladrillo oscuro y sólido.",
+        "stock": 900,
+        "costo": 399,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 108,
+        "nombre": "Ladrillo Fantasmal",
+        "descripcion": "Un ladrillo que parece estar flotando.",
+        "stock": 300,
+        "costo": 799,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 109,
+        "nombre": "Ladrillo Radiante",
+        "descripcion": "Un ladrillo que emite una luz suave.",
+        "stock": 1000,
+        "costo": 649,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 110,
+        "nombre": "Ladrillo de Diamante",
+        "descripcion": "Un ladrillo extremadamente duro y valioso. Se encontraba a partir del 12 antes de la update de las montañas",
+        "stock": 400,
+        "costo": 999,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 111,
+        "nombre": "Ladrillo de Arcilla",
+        "descripcion": "Un ladrillo natural y fácil de trabajar.",
+        "stock": 1500,
+        "costo": 149,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 112,
+        "nombre": "Ladrillo de Cristal Oscuro",
+        "descripcion": "Un ladrillo oscuro que parece encerrar un espíritu maligno.",
+        "stock": 700,
+        "costo": 349,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 113,
+        "nombre": "Ladrillo de Meteorito",
+        "descripcion": "Un ladrillo de metal alienígena fundido.",
+        "stock": 300,
+        "costo": 799,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 114,
+        "nombre": "Ladrillo de Cobre",
+        "descripcion": "Un ladrillo rojizo con propiedades conductoras. Bzzzzzzt.",
+        "stock": 1200,
+        "costo": 199,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 115,
+        "nombre": "Ladrillo de Rubí",
+        "descripcion": "Un ladrillo rojo brillante y valioso.",
+        "stock": 500,
+        "costo": 499,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 116,
+        "nombre": "Ladrillo de Plata",
+        "descripcion": "Un ladrillo plateado como la espada del brujo.",
+        "stock": 900,
+        "costo": 399,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 117,
+        "nombre": "Ladrillo de Amatista",
+        "descripcion": "Un ladrillo morado con energía espiritual.",
+        "stock": 600,
+        "costo": 349,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 118,
+        "nombre": "Ladrillo de Cuarzo",
+        "descripcion": "Un ladrillo blanco y cristalino.",
+        "stock": 1000,
+        "costo": 249,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 119,
+        "nombre": "Ladrillo de Marfil",
+        "descripcion": "Un ladrillo de marfil de una criatura mítica. Muy raro.",
+        "stock": 2,
+        "costo": 15000000,
+        "tipo_moneda": "$"
+    },
+    {
+        "id": 120,
+        "nombre": "Ladrillo de Jade",
+        "descripcion": "Un ladrillo verde con propiedades curativas.",
+        "stock": 700,
+        "costo": 449,
+        "tipo_moneda": "$"
+    }
+    
+]
