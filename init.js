@@ -15,23 +15,20 @@ document.addEventListener('DOMContentLoaded', function () {
         data.forEach(articulo => {
 
             cont1.innerHTML += `
-            <div class="articulo"
-            <div class="list-group-item list-group-item-action cursor-active">
-                <div class="row">
-                    <div class="col">
-                        <div class="justify-content-between">
-                            <h4 class="mb-1">${articulo.nombre}</h4>
-                            <small>${articulo.stock} artículos</small>
-                        </div>
-                        <p class="mb-1">${articulo.descripcion}</p> <p class="mb-1">${articulo.tipo_moneda + " " + articulo.costo}</p>
-                        <form>
-                        <button type="button" onclick="agregarAlCarrito('${articulo.nombre}', ${articulo.stock})" id="agregar" class="btn btn-primary">Agregar al Carrito</button>
-                        <input type="number" class="inputCant" min="1" required>
-                        </form>
-                    </div>
-                </div>
-            </div>
-            </div>
+            <div class="cont">
+           
+              
+                <div class="card">
+                  <div class="content">
+                    <p class="heading">${articulo.nombre}</p>
+                    <p class="stock">${articulo.stock} artículos</p>
+                    <p class="info">${articulo.descripcion}</p>
+                    <p class="info text-muted">${articulo.tipo_moneda} ${articulo.costo}</p>
+                    <input type="number" class="inputCant" min="1" required>
+                    <button class="btn" onclick="agregarAlCarrito('${articulo.nombre}', ${articulo.stock})">Agregar al Carrito</button>
+                
+                
+              </div>
             `
 
         });
