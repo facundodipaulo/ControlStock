@@ -9,26 +9,21 @@ document.addEventListener('DOMContentLoaded', function () {
     .then(response => response.json())
     .then(data => {
 
-        
-
-
         data.forEach(articulo => {
 
             cont1.innerHTML += `
-            <div class="cont">
-           
-              
+            <div class="cont">          
                 <div class="card">
-                  <div class="content">
-                    <p class="heading">${articulo.nombre}</p>
-                    <p class="stock">${articulo.stock} artículos</p>
-                    <p class="info">${articulo.descripcion}</p>
-                    <p class="info text-muted">${articulo.tipo_moneda} ${articulo.costo}</p>
-                    <input type="number" class="inputCant" min="1" required>
-                    <button class="btn" onclick="agregarAlCarrito('${articulo.nombre}', ${articulo.stock})">Agregar al Carrito</button>
-                
-                
-              </div>
+                    <div class="content">
+                        <p class="heading">${articulo.nombre}</p>
+                        <p class="stock text-end">${articulo.stock} artículos</p>
+                        <p class="info">${articulo.descripcion}</p>
+                        <p class="costo">${articulo.tipo_moneda} ${articulo.costo}</p>
+                        <input type="number" class="inputCant" min="1" required>
+                        <button class="btn" onclick="agregarAlCarrito('${articulo.nombre}', ${articulo.stock})">Agregar al Carrito</button>
+            </div>
+                </div>
+                     </div>
             `
 
         });
