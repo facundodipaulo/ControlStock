@@ -1,13 +1,75 @@
-.articulo {
-    padding: 03%;
-    text-align: center;
-    border: 1px solid;
-    background-color: darkolivegreen;
-    color: white;
-}
-
-.titulo {
+.titulo,.titulo_gen {
     text-align: center;
     background-color: darkcyan;
     padding: 1%;
 }
+.titulo_gen{
+  border-end-start-radius: 30px;
+  border-end-end-radius:  30px;
+}
+nav{
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+#container {
+    margin: 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
+    justify-content: center; 
+  }
+  
+  .card {
+    width: 100%; 
+    height:  auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    padding: 32px;
+    border-radius: 10px;
+  }
+  
+  .heading {
+    font-weight: 700;
+    font-size: 32px;
+    text-align: center;
+  }
+  .info{
+  font-size: 18px;
+  text-align: center;
+  }
+  
+  .stock{
+    font-weight: bold;
+  }
+  
+  .btn {
+    color: #e8e8e8;
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    background-color:rgb(210, 0, 0) ;
+    border-radius: 5px;
+    margin-left: 2%;
+  }
+  #campoBusqueda{
+    width: 25rem;
+    height: 40px;
+  }
+  .btn:hover{
+    background-color: green;
+    color: white;
+    transition: 0.5s;
+  }
+  .inputCant{
+    width: 10%; 
+    height: auto; 
+    margin-left: 28%;
+  }
+  .costo{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
