@@ -63,7 +63,8 @@ nav{
     transition: 0.5s;
   }
   .inputCant{
-    width: 10%; 
+    text-align: center;
+    width: 25%; 
     height: auto; 
     margin-left: 28%;
   }
